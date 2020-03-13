@@ -7,5 +7,6 @@ public enum GraphFunctionName
     SineWave,
     MultiSine,
     MultiSine2D,
+    Ripple,
     Eggbasket
 }

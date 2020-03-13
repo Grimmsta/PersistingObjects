@@ -48,7 +48,7 @@ public class GraphCalculator : MonoBehaviour
     {
         float t = Time.time;
 
-        GraphFunctions[] functions = { SineFunction, Sine2dFunction, SineWave, MultiSineFunction, MultiSine2DFunction, Eggbasket };
+        GraphFunctions[] functions = { SineFunction, Sine2dFunction, SineWave, MultiSineFunction, MultiSine2DFunction, Ripple, Eggbasket };
         
         GraphFunctions f = functions[(int)function];
 
@@ -101,5 +101,9 @@ public class GraphCalculator : MonoBehaviour
         return (Mathf.Sin(pi * (x + t)) + Mathf.Sin(pi * (z + t)))*0.5f;
     }
 
-    
+    float Ripple(float x, float z, float t)
+    {
+        float d = Mathf.Sqrt(x * x + z * z);
+        return d;
+    }
 }
