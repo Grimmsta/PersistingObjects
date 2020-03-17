@@ -1,6 +1,4 @@
-﻿using UnityEngine;
-
-public enum GraphFunctionName
+﻿public enum GraphFunctionName
 {
     Sine,
     Sine2D,
@@ -8,5 +6,7 @@ public enum GraphFunctionName
     MultiSine,
     MultiSine2D,
     Ripple,
+    Cylinder,
+    Sphere,
     Eggbasket
 }
