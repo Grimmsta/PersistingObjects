@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\grimm\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\grimm\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_PersistentObjects.1950233698.00" t="ExcludeRecursive" />
+    <e p="C:\Users\grimm\Documents\Unity\PersitentObjects\PersistentObjects" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Materials" t="Include">
+          <e p="Shaders" t="Include">
+            <e p="ColouredPoint.shader" t="Include" />
+          </e>
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="Fractal" t="Include">
+            <e p="Fractal.cs" t="Include" />
+          </e>
+          <e p="FramesPerSec" t="Include">
+            <e p="FPSCounter.cs" t="Include" />
+            <e p="FPSDisplay.cs" t="Include" />
+            <e p="Nucleon.cs" t="Include" />
+            <e p="NucleonSpawner.cs" t="Include" />
+          </e>
+          <e p="Graph" t="Include">
+            <e p="GraphCalculator.cs" t="Include" />
+            <e p="GraphFunctionName.cs" t="Include" />
+            <e p="GraphFunctions.cs" t="Include" />
+          </e>
+          <e p="Player" t="Include">
+            <e p="CameraController.cs" t="Include" />
+            <e p="Movement.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="PersistentObjects.sln" t="IncludeFlat" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
